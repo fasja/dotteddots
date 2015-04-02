@@ -1,0 +1,103 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100vh;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 100;
+    background-image: url(./img/wall.jpg);
+    background-position: bottom center;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+.menu{}
+.menu-mob{}
+
+.firstscr{
+    width: 100%;
+    height:100%;
+    background-color: transparent;
+    text-align: center;
+    color: dimgrey;
+    font-size: 4.5em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.title-first{
+    padding-top: 15%;
+}
+.title-second{
+    padding-top: 3%;
+}
+.title-first span{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+.firstscr-mob{}
+.aboutus{
+    width: 100%;
+    height:60%;
+    background:rgba(0,0,0,0.4);
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 200;
+
+}
+.title{
+    font-size: 1.5em;
+    padding-top: 5%;
+}
+.text{
+    font-size: 1em;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+}
+.aboutus-mob{}
+.projects{
+    width: 100%;
+    height:60%;
+    background-color: aqua;
+    text-align: center;
+    margin-top: 15%;
+}
+.projects-mob{}
+.contacts{
+    width: 100%;
+    height:60%;
+    background-color: coral;
+    text-align: center;
+    margin-top: 15%;
+}
+.contacts-mob{}
+
+@media screen and (max-width: 700px){
+    .menu{display: none;}
+    .menu-mob{display: block;}
+    .firstscr{display:none;}
+    .firstscr-mob{display:block;}
+    .aboutus{display:none;}
+    .aboutus-mob{display:block;}
+    .projects{display:none;}
+    .projects-mob{display:block;}
+    .contacts{display:none;}
+    .contacts-mob{display:block;}
+}
+@media screen and (min-width: 701px){
+    .menu{display: block;}
+    .menu-mob{display: none;}
+    .firstscr{display:block;}
+    .firstscr-mob{display:none;}
+    .aboutus{display:block;}
+    .aboutus-mob{display:none;}
+    .projects{display:block;}
+    .projects-mob{display:none;}
+    .contacts{display:block;}
+    .contacts-mob{display:none;}
+}
